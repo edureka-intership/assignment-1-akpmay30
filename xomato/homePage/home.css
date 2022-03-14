@@ -1,0 +1,194 @@
+body{
+    margin: auto;
+    overflow-x: hidden;
+}
+.header{
+    background-color: #ebe344;;
+    height: 60px;
+}
+.title{
+    float:left;
+    margin-left: 3px;
+    color: #4e4e4e;
+    font-family: fangsong;
+    font-weight: 600;
+}
+#social{
+    float:right;
+ 
+}
+.logo{
+    width: 35px;
+    height: 50px;
+    margin-right: 10px;
+}
+.name{
+    font-size:30px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+#icon{
+    background-color:#e7e393a8;
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    margin: auto;
+    margin-top: 5px;
+}
+#icon>span{
+    margin-left: 39px;
+    margin-top: 25px;
+    position: absolute;
+    font-size: 80px;
+}
+.search{
+    background-image: url('../image/restaurant_bg_image.jpg');
+    height: 65%;
+    background-repeat: round;
+    background-size: 100% 300px;
+}
+.bg-xomato{
+    width: 100%;
+    height: 50%;
+    margin-top: 21px;
+    position: absolute;
+}
+.head{
+    margin-top: 15px!important;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+}
+#heading{
+    margin-left: 27%;
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+    background-color: #fff8dc75;
+    width: fit-content;
+}
+.dropdown{
+    height:60px;
+    width:75%;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+select{
+    height: 60px;
+    width: 30%;
+    font-size: 20px;
+    text-align: center;
+    border-color: #ebe344;
+    border-block-width: 5px;
+    border-left: 7px solid #ebe344;
+    border-right: 7px solid #ebe344;
+}
+
+.quickSearch{
+    margin-left: 12.5%;
+    margin-top: 30px;
+    width: 80%;
+    /* border:2px solid red; */
+}
+#headingSearch{
+    font-size: 30px;
+    color: #b28e09;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.restSelect{
+    width: 35%;
+}
+#sub_heading_search{
+    display: block;
+    line-height: 3;
+    color:#7e7e7c
+}
+.title-container{
+    height: 150px;
+    width: 30%;
+    /* border: 2px solid #e7ea0b; */
+    box-shadow: 4px -3px 14px darkgrey;
+    display: inline-block;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+#footer{
+    width: 100%;
+    height: 21%;
+    border: 1px solid #ebe344;
+    background-color: #ebe344;
+    /* box-shadow: 0px 1px 10px; */
+    margin-top: 7px;
+}
+.title-left{
+
+    width: 50%;
+    height: 150px;
+    /* background-color: #b28e09; */
+    float:left;
+
+}
+.title-right{
+    width: 40%;
+    height: 150px;
+    float: left;
+    margin-left:10px ;
+}
+.title-left>img{
+    height: 150px;
+    width: 100%;
+}
+
+.titleHeading{
+    font-size: 20px;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-left: 5px;
+    color:#b28e09;
+
+}
+
+.titleSubHeading{ 
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.footerHeading{
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #b28e09;
+}
+#head{
+    font-size:15px;
+}
+#head-abt{
+    float:left;
+}
+.foot-div{
+    text-align: center;
+    height: 71px;
+    width: 33%;
+    float: left;
+    border-right: 2px solid #565c14;
+}
+.no-border{
+    border-right:0px!important;
+}
+.foot-div>p{
+    color:#7e7e7c;
+    font-size: 13px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titleHeading>a{
+    text-decoration: none;
+    color:#b28e09;
+}
